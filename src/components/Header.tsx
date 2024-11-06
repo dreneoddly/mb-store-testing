@@ -50,7 +50,7 @@ const Header = () => {
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6 ">
+          <nav className="hidden text-sm md:flex space-x-6 md:text-base ">
             <Link href="/" className="text-gray-700 hover:text-pink-600">
               Home
             </Link>
@@ -120,7 +120,7 @@ const Header = () => {
                     aria-labelledby="options-menu"
                   >
                     <Link
-                      href="/shoes/all"
+                      href="/shoes"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       All
@@ -132,19 +132,19 @@ const Header = () => {
                       Sneakers
                     </Link>
                     <Link
-                      href="/shoes/boots"
+                      href="/shoes/crocs"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Crocs
                     </Link>
                     <Link
-                      href="/shoes/sandals"
+                      href="/shoes/slippers"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Slippers
                     </Link>
                     <Link
-                      href="/shoes/sandals"
+                      href="/shoes/slides"
                       className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     >
                       Slides
@@ -245,7 +245,7 @@ const Header = () => {
               {isShoesOpen && (
                 <div className="pl-4">
                   <Link
-                    href="/shoes/all"
+                    href="/shoes"
                     className="block py-2 text-sm text-gray-700 hover:text-pink-600"
                   >
                     All
@@ -257,19 +257,19 @@ const Header = () => {
                     Sneakers
                   </Link>
                   <Link
-                    href="/shoes/boots"
+                    href="/shoes/crocs"
                     className="block py-2 text-sm text-gray-700 hover:text-pink-600"
                   >
                     Crocs
                   </Link>
                   <Link
-                    href="/shoes/sandals"
+                    href="/shoes/slippers"
                     className="block py-2 text-sm text-gray-700 hover:text-pink-600"
                   >
                     Slippers
                   </Link>
                   <Link
-                    href="/shoes/sandals"
+                    href="/shoes/slides"
                     className="block py-2 text-sm text-gray-700 hover:text-pink-600"
                   >
                     Slides

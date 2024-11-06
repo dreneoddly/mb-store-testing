@@ -56,6 +56,7 @@ export default function ProductDisplay() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {displayedProducts.map((product) => (
           <ProductCard 
+            id={product.id}
             key={product.id}
             title={product.title}
             price={product.price}

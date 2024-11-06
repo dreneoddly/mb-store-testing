@@ -31,6 +31,7 @@ const ProductSection = ({ title, apiUrl }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
         {products.map((product) => (
           <ProductCard
+            id={product.id}
             key={product.id}
             title={product.title}
             price={product.price}

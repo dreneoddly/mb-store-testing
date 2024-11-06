@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="mb-6 md:mb-0">
             <Image
-              src="image/logo (1).svg"
+              src="/image/logo (1).svg"
               alt="MB Logo"
               width={60}
               height={60}
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <h3 className="text-lg font-semibold mb-3">Follow us</h3>
             <div className="flex flex-col space-y-2">
-              <Link href="#" className="flex items-center text-gray-600 hover:text-gray-900">
+              <Link href="https://www.facebook.com/mbshoesstore.mb" className="flex items-center text-gray-600 hover:text-gray-900">
                 <Facebook className="w-5 h-5 mr-2" />
                 Facebook
               </Link>

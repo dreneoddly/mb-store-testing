@@ -10,7 +10,7 @@ export default function Home() {
       {/* Trending Section */}
       <ProductSection
         title="Trending Now!"
-        apiUrl="https://dummyjson.com/products?limit=5"
+        apiUrl="https://dummyjson.com/products"
       />
       {/* New Arrival Section */}
       <ProductSection
